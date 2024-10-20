@@ -36,6 +36,7 @@ function loginDetails(event) {
             text: `Successful`,
             confirmButtonColor: "#2D85DE",
           });
+          location.href="./dashboard.html"
         } else {
           swal.fire({
             icon: "error",
@@ -110,6 +111,7 @@ function Signup(event) {
             text: "User Created Successfully",
             confirmButtonColor: "#2D85DE",
           });
+          location.href="./dashboard.html"
         } else {
           swal.fire({
             icon: "error",
